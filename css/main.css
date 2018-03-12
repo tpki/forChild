@@ -1,0 +1,562 @@
+.container-logo{
+    display: flex;
+    border-bottom: 2px solid rgb(201, 12, 12);
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    /* height: 150px; */
+}
+
+.logo-image{
+    width:30%;
+}
+
+.btn-image{
+    width:70%;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid; */
+}
+
+.btn-size{
+    width: 220px;
+    height: 200px;
+}
+
+/* 認識我們 */
+.btn-image .btn-introduce{
+    transition: 0.5s;
+    background-image:url("../image/keynote/Button/Button_introduce.jpeg");
+}
+
+.btn-image .btn-introduce:hover{
+    transition: 0.5s;
+    background-image:url("../image/keynote/Button/Button_introduce_change.jpeg");
+}
+
+
+
+/* 執行小品 */
+.btn-image .btn-book{
+    transition: 0.5s;
+    background-image:url("../image/keynote/Button/Button_book.jpeg");
+}
+
+.btn-image .btn-book:hover{
+    transition: 0.5s;
+    background-image:url("../image/keynote/Button/Button_book_change.jpeg");
+}
+
+/* 常見問題 */
+.btn-image .btn-faq{
+    transition: 0.5s;
+    background-image:url("../image/keynote/Button/Button_faq.jpeg");
+}
+
+.btn-image .btn-faq:hover{
+    transition: 0.5s;
+    background-image:url("../image/keynote/Button/Button_faq_change.jpeg");
+}
+
+/* 聯絡我們 */
+.btn-image .btn-contact{
+    transition: 0.5s;
+    background-image:url("../image/keynote/Button/Button_contact.jpeg");
+}
+
+.btn-image .btn-contact:hover{
+    transition: 0.5s;
+    background-image:url("../image/keynote/Button/Button_contact_change.jpeg");
+}
+
+.container-introduce{
+    height: 100vh;
+    width: 100vw;
+    border: 1px solid;
+    background-color: #0031A8;
+    margin-bottom: 10px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-introduce .content{
+    display: flex;
+    /* flex-flow: column; */
+    /* border: 1px solid; */
+    align-content: center;
+    align-items:center;
+}
+
+.container-introduce .first-section{
+    width: 460px;
+    height: 580px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: white; */
+    margin:0px 10px;
+}
+
+ a{
+    text-decoration: none;
+}
+
+.container-introduce .first-section .image-section{
+    width: 450px;
+    height: 400px;
+    /* border: 1px solid red; */
+    background-image: url("../image/keynote/Introduce/Introduce_image.jpeg");
+    background-size: 120%;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+}
+
+.container-introduce .first-section:hover .image-section{
+    /* overflow: hidden; */
+    width: 450px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-size: 90%; */
+    transition: 2.5s;
+}
+
+.container-introduce .image-section .content{
+    width: 100%;
+    height: 57px;
+    line-height: 57px;
+    font-size: 1.5em;
+    background-color:rgba(19, 144, 216, 0.685);
+    color: white;
+    padding-left: 10px;
+}
+
+.container-introduce .first-section:hover .content{
+    transition: 0.5s;
+    background-color:rgb(19, 144, 216);
+}
+
+
+.container-introduce .first-section .image-content{
+    width: 450px;
+    height: 100px;
+    /* border: 1px solid red; */
+    background-image:url("../image/keynote/Introduce/Introduce_content.jpeg");
+}
+
+.container-introduce .first-section:hover .image-content{
+    transition: 0.5s;
+    background-image:url("../image/keynote/Introduce/Introduce_content_change.jpeg");
+}
+
+.container-introduce .second-section{
+    display: flex;
+    flex-flow: column;
+    width: 250px;
+    height: 500px;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+    margin:0px 10px;
+}
+
+.container-introduce .section-1 .image-section{
+    width: 250px;
+    height: 180px;
+    /* border: 1px solid red; */
+    background-image: url("../image/keynote/Introduce/organization.jpg");
+    background-size: 120%;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+}
+
+.container-introduce .section-1:hover .image-section{
+    background-size: 90%;
+}
+
+.container-introduce .section-1 .image-content{
+    width: 250px;
+    height: 60px;
+    background-image: url("../image/keynote/Introduce/section-1-Evolution.jpeg");
+    /* margin-bottom: 10px; */
+}
+
+.container-introduce .section-1:hover .content{
+    transition: 0.5s;
+    background-color:rgb(19, 144, 216);
+}
+
+.container-introduce .section-1:hover .image-content{
+    width: 250px;
+    height: 60px;
+    background-image: url("../image/keynote/Introduce/section-1-Evolution_chage.jpeg");
+    /* margin-bottom: 10px; */
+}
+
+.container-introduce .section-2 .image-section{
+    width: 250px;
+    height: 180px;
+    /* border: 1px solid red; */
+    background-image: url("../image/keynote/Introduce/organization.jpg");
+    background-size: 120%;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+}
+
+.container-introduce .section-2:hover .image-section{
+    background-size: 90%;
+}
+
+.container-introduce .section-2 .image-content{
+    width: 250px;
+    height: 60px;
+    background-image: url("../image/keynote/Introduce/section-1-Introduce.jpeg");
+    /* margin-bottom: 10px; */
+}
+
+.container-introduce .section-2:hover .content{
+    transition: 0.5s;
+    background-color:rgb(19, 144, 216);
+}
+
+.container-introduce .section-2:hover .image-content{
+    width: 250px;
+    height: 60px;
+    background-image: url("../image/keynote/Introduce/section-1-Introduce_chage.jpeg");
+    /* margin-bottom: 10px; */
+}
+
+
+
+.container-book{
+    margin-bottom: 10px;
+    height: 100vh;
+    width: 100vw;
+    border: 1px solid;
+    background-color: #C61E17;
+    margin-bottom: 10px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-book .content{
+    display: flex;
+    /* flex-flow: column; */
+    /* border: 1px solid; */
+    align-content: center;
+    align-items:center;
+}
+
+.container-book .first-section{
+    width: 460px;
+    height: 580px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: white; */
+    margin:0px 10px;
+}
+
+.container-book .first-section .image-section{
+    width: 450px;
+    height: 400px;
+    /* border: 1px solid red; */
+    background-image: url("../image/keynote/book/Old_man.jpg");
+    background-size: 120%;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+}
+
+.container-book .first-section:hover .image-section{
+    /* overflow: hidden; */
+    width: 450px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* background-size: 90%; */
+    transition: 1.5s;
+}
+
+.container-book .image-section .content{
+    width: 100%;
+    height: 57px;
+    line-height: 57px;
+    font-size: 1.5em;
+    background-color:rgba(161, 24, 24, 0.685);
+    color: white;
+    padding-left: 10px;
+}
+
+.container-book .first-section:hover .content{
+    transition: 0.5s;
+    background-color:rgb(216, 75, 19);
+}
+
+
+.container-book .first-section .image-content{
+    width: 450px;
+    height: 100px;
+    /* border: 1px solid red; */
+    background-image:url("../image/keynote/book/book_content.jpeg");
+}
+
+.container-book .first-section:hover .image-content{
+    transition: 0.5s;
+    background-image:url("../image/keynote/book/book_content_change.jpeg");
+}
+
+.container-book .second-section{
+    display: flex;
+    flex-flow: column;
+    width: 250px;
+    height: 500px;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+    margin:0px 10px;
+}
+
+.container-book .section-1 .image-section{
+    width: 250px;
+    height: 180px;
+    /* border: 1px solid red; */
+    background-image: url("../image/keynote/book/computer.jpg");
+    background-size: 120%;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+}
+
+.container-book .section-1:hover .image-section{
+    background-size: 90%;
+}
+
+.container-book .section-1 .image-content{
+    width: 250px;
+    height: 60px;
+    background-image: url("../image/keynote/book/section-1-computer.jpeg");
+    /* margin-bottom: 10px; */
+}
+
+.container-book .section-1:hover .content{
+    transition: 0.5s;
+    background-color:rgb(216, 75, 19);
+}
+
+.container-book .section-1:hover .image-content{
+    width: 250px;
+    height: 60px;
+    background-image: url("../image/keynote/book/section-1-computer_change.jpeg");
+    /* margin-bottom: 10px; */
+}
+
+.container-book .section-2 .image-section{
+    width: 250px;
+    height: 180px;
+    /* border: 1px solid red; */
+    background-image: url("../image/keynote/book/mom.jpg");
+    background-size: 120%;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+}
+
+.container-book .section-2:hover .image-section{
+    background-size: 90%;
+}
+
+.container-book .section-2 .image-content{
+    width: 250px;
+    height: 60px;
+    background-image: url("../image/keynote/book/section-2-mom.jpeg");
+    /* margin-bottom: 10px; */
+}
+
+.container-book .section-2:hover .content{
+    transition: 0.5s;
+    background-color:rgb(216, 75, 19);
+}
+
+.container-book .section-2:hover .image-content{
+    width: 250px;
+    height: 60px;
+    background-image: url("../image/keynote/book/section-2-mom_change.jpeg");
+    /* margin-bottom: 10px; */
+}
+
+
+.container-faq{
+    margin-bottom: 10px;
+    height: 100vh;
+    width: 100vw;
+    border: 1px solid;
+    background-color: #5D07A0;
+    margin-bottom: 10px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+.container-faq .content{
+    display: flex;
+    /* flex-flow: column; */
+    /* border: 1px solid; */
+    align-content: center;
+    align-items:center;
+}
+
+.container-faq .first-section{
+    width: 460px;
+    height: 580px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: white; */
+    margin:0px 10px;
+}
+
+.container-faq .first-section .image-section{
+    width: 450px;
+    height: 400px;
+    /* border: 1px solid red; */
+    background-image: url("../image/keynote/faq/faq1.jpg");
+    background-size: 120%;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+}
+
+.container-faq .first-section:hover .image-section{
+    /* overflow: hidden; */
+    width: 450px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* background-size: 90%; */
+    transition: 1.5s;
+}
+
+.container-faq .image-section .content{
+    width: 100%;
+    height: 57px;
+    line-height: 57px;
+    font-size: 1.5em;
+    background-color:rgba(94, 7, 160, 0.473);
+    color: white;
+    padding-left: 10px;
+}
+
+.container-faq .first-section:hover .content{
+    transition: 0.5s;
+    background-color:rgb(143, 45, 218);
+}
+
+
+.container-faq .first-section .image-content{
+    width: 450px;
+    height: 100px;
+    /* border: 1px solid red; */
+    background-image:url("../image/keynote/faq/faq_content.jpeg");
+}
+
+.container-faq .first-section:hover .image-content{
+    transition: 0.5s;
+    background-image:url("../image/keynote/faq/faq_content_change.jpeg");
+}
+
+.container-faq .second-section{
+    display: flex;
+    flex-flow: column;
+    width: 250px;
+    height: 500px;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+    margin:0px 10px;
+}
+
+.container-faq .section-1 .image-section{
+    width: 250px;
+    height: 180px;
+    /* border: 1px solid red; */
+    background-image: url("../image/keynote/faq/faq2.jpg");
+    background-size: 120%;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+}
+
+.container-faq .section-1:hover .image-section{
+    background-size: 90%;
+}
+
+.container-faq .section-1 .image-content{
+    width: 250px;
+    height: 60px;
+    background-image: url("../image/keynote/faq/section-1-faq.jpeg");
+    /* margin-bottom: 10px; */
+}
+
+.container-faq .section-1:hover .content{
+    transition: 0.5s;
+    background-color:#5D07A0;
+}
+
+.container-faq .section-1:hover .image-content{
+    width: 250px;
+    height: 60px;
+    background-image: url("../image/keynote/faq/section-1-faq_change.jpeg");
+    /* margin-bottom: 10px; */
+}
+
+.container-faq .section-2 .image-section{
+    width: 250px;
+    height: 180px;
+    /* border: 1px solid red; */
+    background-image: url("../image/keynote/faq/faq3.jpg");
+    background-size: 120%;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+}
+
+.container-faq .section-2:hover .image-section{
+    background-size: 90%;
+}
+
+.container-faq .section-2 .image-content{
+    width: 250px;
+    height: 60px;
+    background-image: url("../image/keynote/faq/section-2-faq.jpeg");
+    /* margin-bottom: 10px; */
+}
+
+.container-faq .section-2:hover .content{
+    transition: 0.5s;
+    background-color:#5D07A0;
+}
+
+.container-faq .section-2:hover .image-content{
+    width: 250px;
+    height: 60px;
+    background-image: url("../image/keynote/faq/section-2-faq_change.jpeg");
+    /* margin-bottom: 10px; */
+}
+
+.bottom{
+    width: 100vw;
+    height: 10vh;
+    line-height: 10vh;
+    color:white;
+    background-color: black;
+}
