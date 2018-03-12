@@ -167,15 +167,16 @@
     width: 250px;
     height: 180px;
     /* border: 1px solid red; */
-    background-image: url("../image/keynote/Introduce/organization.jpg");
-    background-size: 120%;
+    background-image: url("../image/keynote/Introduce/Logo.png");
+    background-size: 110%;
     background-position: center;
     display: flex;
     align-items: flex-end;
 }
 
 .container-introduce .section-1:hover .image-section{
-    background-size: 90%;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .container-introduce .section-1 .image-content{
